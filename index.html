@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/277dd827d4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><img src="images/logo.svg" class="logo"></div>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certification</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello</p>
+                <h1>I'm a <span class="multitext"> Coder</span></h1>
+                <a href="https://www.linkedin.com/in/karthik-d-shetty-b85570244/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/karthikdshetty"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/k3rthik/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div>
+                <a href="#contact" class="btn"> Hire Me</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ............about...... -->
+<div id="about">
+    <div class="container">
+        <div class ="row">
+            <div class="about-col-1">
+               <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title"> About Me</h1>
+            <p> Hello , I'm Karthik D Shetty, a highly enthusiastic learner with a passion 
+                for technology, design and programming. The interest in these fields has
+                 fueled me a desire to constantly learn and improve my skills, making them
+                 a valuable asset to any team.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+            <p class="tab-links" onclick="opentab('internship')">Internship</p>
+        </div>
+        <div class="tab-contents active-tab " id="education">
+            <ul>
+                <li><span>Computer Science Engg</span><br> Srinivas University, Mukka<br> 2019 - Present</li>
+                <li><span>Pre-University Course</span><br> MGM PU College, Udupi<br> 2017 - 2019</li>
+                <li><span> SSLC</span><br> GM Vidyanikethan Public School <br> 2016 - 2017</li>
+              
+            </ul>
+        </div>
+        <div class="tab-contents "id="skills">
+            <ul>
+                <li><span>Python</span><br>Proficient</li>
+                <li><span>Html</span><br>Skilled</li>
+                <li><span>Javascript</span><br>Skilled</li>
+                <li><span>C</span><br>Intermediate</li>
+            </ul>
+        </div>
+        <div class="tab-contents"id="projects">
+            <ul>
+                <li><span>Lexical Analyer</span><br>This python-based project gives brief information on how the source program gets evaluated
+                    in Lexical analysis phase of compiler and Syntax analysis phase of compiler.</li>
+                <li><span>Phone Number Tracker</span><br>Here I have developed a project on track phone number using python. Track phone number is a
+                    system that gives you the facility tracking phone number (carrier , service provider etc.).</li>  
+            </ul>
+        </div>
+        <div class="tab-contents"id="internship">
+            <ul>
+                <li><span>Vitavara Technologies</span><br> Vitvara is Mangalore based startup company established in 2011.
+                     Vitvara was nurtured by a group of entrepreneurs with a sole mission of establishing a dedicated Research
+                      & Development Cell to fertilize the innovations of budding engineers. 
+                    We are specialized for Software and educational services.</li>
+                <li><span>Location</a></span><br><a href="https://goo.gl/maps/Ym2aqvQJaxRU57EQ9"></a>Mangalore</li>
+                <li><span>Domain</span><br>Android App Devolpment</li>
+                <li><span>Time Period</span><br>1 month (Aug2022-Sept22)</li>
+                <li><span>Certificate></span><br><a href="#contact">Click Here</a></li>
+            </ul>
+        </div>
+         </div>
+    </div>
+</div>
+
+<!-- --------Interests------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Certification</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-slack"></i>
+                <h2>IBM</h2>
+                <p>Virtual internship on frontend development with IBM SkillUp</p>
+                <a href="https://www.linkedin.com/posts/karthik-d-shetty-b85570244_frontenddevelopment-skillup-virtualinternship-activity-7023314558740045825-yfEp?utm_source=share&utm_medium=member_desktop">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-slack"></i>
+                <h2>MICROSOFT </h2>
+                <p>Azure fundamentals</p>
+                <a href="https://drive.google.com/file/d/1yi-HyDQWFrbkxdh8T1WMN0AKnlVeQJef/view?usp=share_link">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-slack"></i>
+                <h2>TECHLEARN</h2>
+                <p>Internship Completion Certificate for being a Campus Leader at TechLearn.live</p>
+                <a href="https://drive.google.com/file/d/1cxj2BadJFCHxdtr5NJET7P8bfHMSjYZo/view?usp=sharing">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- -------portfolio---- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.svg">
+                <div class="layer">
+                    <h4>Internship</h4>
+                    <h3>Home Automation App</h3>
+                    <p> It is a Android based application made within the
+                        framework of Java and XmlApp provides a visual representation of how home
+                        automation works.The data is inserted and updated on mysql database</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/chegg.svg">
+                <div class="layer">
+                    <h4>Freelancing</h4>
+                    <h3>Managed Network Expert</h3>
+                    <p>Managed network experts are the ones who are working as a freelancer on Chegg, 
+                        be it their text book solution or on their Chegg Q&A board.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/chegg.svg">
+                <div class="layer">
+                    <h4>Freelancing</h4>
+                    <h3>Managed Network Expert</h3>
+                    <p>Managed network experts are the ones who are working as a freelancer on Chegg, 
+                        be it their text book solution or on their Chegg Q&A board.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/chegg.svg">
+                <div class="layer">
+                    <h4>Freelancing</h4>
+                    <h3>Managed Network Expert</h3>
+                    <p>Managed network experts are the ones who are working as a freelancer on Chegg, 
+                        be it their text book solution or on their Chegg Q&A board.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------contacts------ -->
+<div id="contact">
+    
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shettykarthik@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7026800874</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/karthikdshetty.pdf" download class="btn btn2"> Download resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright reserved //2023</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    var typingeffect = new Typed(".multitext",{
+        strings :["0", "Geek.","Designer.","Techie."],
+        loop:true,
+        typeSpeed :100,
+        backspeed : 80,
+        backDelay :1500
+    })
+</script>
+
+</body>
+</html>
